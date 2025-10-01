@@ -29,8 +29,8 @@ jobs:
       - name: Install SDK
         run: |
           chmod +x $SDK_SCRIPT
-          sudo $SDK_SCRIPT --prefix=/usr/local/oecore-x86_64 --yes
-
+          sudo $SDK_SCRIPT -y -d /usr/local/oecore-x86_64
+          
       - name: Set up SDK environment
         run: |
           source /usr/local/oecore-x86_64/environment-setup-armv7vehf-neon-oe-linux-gnueabi
