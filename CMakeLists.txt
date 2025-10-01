@@ -6,6 +6,7 @@ project(asteroid-terminal
     LANGUAGES CXX)
 
 find_package(AsteroidApp REQUIRED)
+include(AsteroidApp)
 
 set(APP_NAME asteroid-terminal)
 set(APP_ICON terminal)
