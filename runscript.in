@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# Run asteroid-terminal
+exec @CMAKE_INSTALL_PREFIX@/bin/asteroid-terminal "$@"

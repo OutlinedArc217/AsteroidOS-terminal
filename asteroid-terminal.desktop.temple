@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Terminal
+Name[de_DE]=Terminal
+Name[fr_FR]=Terminal
+Name[es_ES]=Terminal
+Name[zh_CN]=终端
+Name[ru_RU]=Терминал
+Categories=Applications;
+Exec=invoker --type=qtcomponents-qt5 /usr/bin/asteroid-terminal
+Icon=terminal
+X-Desktop-File-Install-Version=0.20
